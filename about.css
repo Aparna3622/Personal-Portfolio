@@ -8,9 +8,10 @@
 
 .sidebar{
     background-color: rgb(165, 165, 165);
-    width:430px;
     height:100%;
-    font-family:'Roboto',sans-serif;
+    position: absolute;
+    transition: transform 0.3s ease-in;
+    font-family: 'Roboto', 'sans-serif';
 }
 .sidebar nav{
     padding:19px;
@@ -32,14 +33,23 @@
     display:flex;
 
 }
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
 .hamburger{
     position: absolute;
     cursor: pointer;
     top:10px;
     left:10px;
 }
+.ham{
+    margin-top:10px;
+    margin-left: 10px;
+}
 .cross{
-    margin-left:180px;
+    margin-left: 147px;
+    margin-top: -5px;
 }
 .infocontainer{
     /*background-color: rgb(64, 157, 126);*/
@@ -65,8 +75,24 @@
     font-weight: bold;
     font-family: "Dancing Script", cursive;
 }
-.about{
-     font-size: 45px;
+.typewriter{
+        font-size: 45px;
+        color: #c5620b;
+        white-space: nowrap;
+        font-family: 'Roboto' ,'sans-serif';
+        font-weight: bold;
+        overflow: hidden;
+        border-right: 2px solid #333;
+        width: fit-content;
+        animation: blink 0.7s steps(2) infinite;
+      }
+      @keyframes blink {
+        0%, 100% {
+          border-color: transparent;
+        }
+        50% {
+          border-color: #333;
+        }
 }
 .buttons{
     margin-top: 34px;
