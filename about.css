@@ -16,6 +16,7 @@
 .sidebar nav{
     padding:19px;
 }
+
 .sidebar nav li{
     list-style-type: none;
     font-size: 30px;
@@ -25,6 +26,7 @@
     text-decoration: none;
     color: black;
 }
+
 .main{
     /*background-color: bisque;*/
     width:100vw;
