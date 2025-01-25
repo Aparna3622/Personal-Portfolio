@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="index1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> Font Awesome CDN -->
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">
+          <img src="Images/icon-removebg-preview.png" alt="logo"/>
+          </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Education" onclick="toggleMenu()">Education</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav> -->
+    <section id="profile">
+        <div class="pic-container">
+            <img src="Images/file.png" alt=""/>
+        </div>
+        <div class="section-text">
+            <p class="section-p1">Hey, There <img src="Images/hand-removebg-preview.png"/></p>
+            <h1 class="title">Aparna Shekadar</h1>
+            <!-- /* From Uiverse.io by kennyotsu */  -->
+            <div class="card">
+             <div class="loader">
+                <div class="words">
+                     <span class="word">MCA Graduate</span>
+                     <span class="word">Full Stack Developer</span>
+                     <span class="word">Web Designer</span>
+                     <!-- <span class="word">Web Development Intern</span> -->
+                     <span class="word">Enthusiastic</span>
+      <!-- <span class="word">buttons</span> -->
+                </div>
+             </div>
+            </div>
+
+            <!-- <p class="section-p2">Full stack developer</p> -->
+            <div class="btn-container">
+                <button class="btn" onclick="window.open('My Resume.pdf', '_blank')">Download Resume</button>
+                <!-- <button class="btn-color" onclick="location.href='mailto:aparnashekadar123@gmail.com?subject=Hello&body=I want to connect with you.'>Contact info </button> -->
+                <a href="mailto:aparnashekadar123@gmail.com?subject=Hello&body=I want to connect with you.">
+                  <button>Send Email</button>
+              </a>
+            </div>
+            <div id="socials">
+                <a href="https://www.linkedin.com/in/aparnashekadar" target="_blank"><img src="Images/linkedin.png"></a>
+                <a href="https://github.com/Aparna3622" target="_blank"><img src="Images/git.png"></a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section-text-p1">Get to Know More</p>
+        <h1 class="title">About Me!</h1>
+        <div class="section-container">
+            <img src="Images/images.jpg" alt="profile" class="about-pic"/>
+            <div class="about-details">
+                <div class="text-container">
+                    <h1 class="text-title">I am Aparna Shekadar</h1>
+                    <p class="text-content">I am studying MCA In Acharya Institute Of Technology, Bangalore.
+                        I am a Full Stack Developer with a passion for creating dynamic and responsive web applications. I have experience in both frontend and backend technologies, and I enjoy working on projects that challenge me to learn and grow as a developer.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- <img src="arrow.jpg" alt="arrow icon" class="icon arrow" onclick="location.href='#Experience'"/> -->
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-container">
+            <div class="skill">
+              <i class="fab fa-html5" style="color: #e34f26;"></i>
+              <span>HTML</span>
+            </div>
+            <div class="skill">
+              <i class="fab fa-css3-alt" style="color: #1572b6;"></i>
+              <span>CSS</span>
+            </div>
+            <div class="skill">
+              <i class="fab fa-js-square" style="color: #f7df1e;"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="skill">
+              <i class="fab fa-java" style="color: #007396;"></i>
+              <span>Java</span>
+            </div>
+            <div class="skill">
+              <i class="fab fa-python" style="color: #3776ab;"></i>
+              <span>Python</span>
+            </div>
+            <div class="skill">
+              <i class="fas fa-database" style="color: #f29111;"></i>
+              <span>SQL</span>
+            </div>
+            <div class="skill">
+              <i class="fas fa-cogs" style="color: #8e44ad;"></i>
+              <span>C</span>
+            </div>
+            <div class="skill">
+              <i class="fas fa-server" style="color: #34495e;"></i>
+              <span>DBMS</span>
+            </div>
+            <div class="skill">
+                <!-- <i class="fas fa-database" style="color: #47A248;;"></i> -->
+                <img src="https://icongr.am/devicon/mongodb-original.svg?size=32&color=07f262" alt=""/>
+                <span>MongoDB</span>
+              </div>
+              <div class="skill">
+                <i class="fab fa-bootstrap" style="color: #7952B3;"></i>
+                <span>Bootstrap</span>
+            </div>
+            <div class="skill">
+                <i class="fab fa-node-js" style="color: #43853D;"></i>
+                <span>Node.js</span>
+            </div>
+            <div class="skill">
+                <i class="fab fa-react" style="color: #61DAFB;"></i>
+                <span>React.js</span>
+            </div>
+            <div class="skill">
+                <!-- <i class="fab fa-git" style="color: #F05032;"></i> -->
+                <img src="https://icongr.am/simple/git.svg?size=32&color=ff6600&colored=false"alt=""/>
+                <span>Git</span>
+            </div>            
+          </div>      
+        <!-- <img src="arrow.jpg" alt="arrow icon" class="icon arrow" onclick="location.href='#project'"/> -->
+    </section>
+
+    <!-- Tools used section -->
+     <section id="tools">
+        <!-- <p class="section_text_p1">Explore</p> -->
+        <h1 class="title1">Tools Showcase</h1>
+        <div class="tools-container">
+            <div class="tool">
+              <!-- <i class="fas fa-moon" style="color: #2c2c54;"></i> -->
+               <img src="https://icongr.am/simple/eclipseide.svg?size=45&color=280872&colored=false" alt=" "/>
+              <span>Eclipse</span>
+            </div>
+            <div class="tool">
+              <!-- <i class="fas fa-code" style="color: #3b82f6;"></i> -->
+               <img src="https://icongr.am/simple/codesandbox.svg?size=45&color=d39b22&colored=false" alt="code"/>
+              <span>CodeBlocks</span>
+            </div>
+            <div class="tool">
+                <img src="https://icongr.am/simple/canva.svg?size=45&color=37a2d7&colored=false" alt=""/>
+                <span>Canva</span>
+            </div>
+            <div class="tool">
+                <img src="https://icongr.am/simple/github.svg?size=32&color=651094&colored=false" alt=""/>
+                <span>github</span>
+            </div>
+            <div class="tool">
+                <img src="https://icongr.am/simple/opengl.svg?size=32&color=148fcc&colored=false" alt=""/>
+                <span>OpenGL</span>
+            </div>
+            <div class="tool">
+                <img src="https://icongr.am/simple/visualstudiocode.svg?size=45&color=0a92d6&colored=false" alt="VS Code Logo"/>
+              <!-- <i class="fab fa-microsoft" style="color: #0078d4;"></i> -->
+              <span>VS Code</span>
+            </div>
+            <div class="tool">
+                <img src="https://icongr.am/simple/xampp.svg?size=45&color=f26507&colored=false" alt="code"/>
+              <!-- <i class="fas fa-database" style="color: #44a08d;"></i> -->
+              <span>XAMPP</span>
+            </div>
+            <div class="tool">
+              <!-- <i class="fas fa-database" style="color: #00758f;"></i> -->
+              <img src="https://icongr.am/devicon/mysql-original.svg?size=45&color=currentColor" alt="code"/>
+              <span>MySQL</span>
+            </div>
+            <div class="tool">
+              <!-- <i class="fas fa-flask" style="color: #2f455c;"></i> -->
+              <img src="https://icongr.am/simple/anaconda.svg?size=45&color=22d366&colored=false" alt="code"/>
+              <span>Anaconda</span>
+            </div>
+            <div class="tool">
+              <!-- <i class="fas fa-play-circle" style="color: #ff4500;"></i> -->
+              <img src="Images/py-removebg-preview.png" alt="code"/>
+              <span>PyCharm</span>
+            </div>
+            <div class="tool">
+              <!-- <i class="fas fa-code-branch" style="color: #f1c40f;"></i> -->
+              <img src="Images/net-removebg-preview.png" alt="code"/>
+              <span>NetBeans</span>
+            </div>
+            <div class="tool">
+              <img src="https://icongr.am/simple/jupyter.svg?size=45&color=fb8537&colored=false" alt="code"/>
+              <span>Jupyter</span>
+            </div>
+            <div class="tool">
+              <!-- <i class="fas fa-rocket" style="color: #fc5c65;"></i> -->
+              <img src="Images/vercel-removebg-preview.png" alt="code"/>
+              <span>Vercel</span>
+            </div>
+          </div>
+        </body>
+     </section>
+
+     <!-- project section    -->
+
+    <section class="projects">
+        <p class="section-text-p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+              <img src="Images/event.png" alt="Project 1" class="project-image">
+              <div class="project-content">
+                <h3 class="project-title">Event Organize website</h3>
+                <p class="project-description">A Responsive Event Organizer Web Page is a dynamic, user-friendly platform designed to manage and display event information effectively across various devices. It offers features like event creation, scheduling, registration, and updates, ensuring seamless access on desktops, tablets, and smartphones.</p>
+                <a href="https://event-organizer-jade.vercel.app/" target="_blank" class="live-demo-button">Live Demo</a>
+              </div>
+            </div>
+        
+            <!-- Project 2 -->
+            <div class="project-card">
+              <img src="Images/ecom.png" alt="Project 2" class="project-image">
+              <div class="project-content">
+                <h3 class="project-title">E-Commerce website</h3>
+                <p class="project-description">A responsive E-commerce website designed for seamless shopping across all devices! With user-friendly navigation, secure payments, and a sleek, adaptable design, this platform ensures a smooth experience for buyers and sellers alike!</p>
+                <a href="https://e-commerce-eosin-rho-23.vercel.app/" target="_blank" class="live-demo-button">Live Demo</a>
+              </div>
+            </div>
+        
+            <!-- Project 3 -->
+            <div class="project-card">
+              <img src="Images/bank.png" alt="Project 3" class="project-image">
+              <div class="project-content">
+                <h3 class="project-title"> Banking System</h3>
+                <p class="project-description">The Banking System is a user-friendly desktop application developed using Python, Tkinter (for the graphical user interface), and MySQL (for database management). This application aims to simulate basic banking functionalities while ensuring data security and smooth user experience</p>
+                <a href="https://github.com/Aparna3622/Banking-system" target="_blank" class="live-demo-button">Live Demo</a>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!--Contact Section-->
+    <section class="Education">
+    <p class="section_text_p1">My Academic</p>
+    <h1 class="title">Education</h1>
+         
+  <div class="timeline">
+    <div class="timeline-item" style="animation-delay: 0.2s">
+      <div class="timeline-content">
+        <div class="timeline-date">2023 - 2025</div>
+        <!-- <div class="timeline-dot"></div> -->
+        <h3 class="degree">Master of Computer Applications</h3>
+        <div class="institution">Acharya Institute of Technology(VTU),Bangalore</div>
+        <p class="details">Specialized in Full Stack Development, Cloud Computing, and Software Engineering. Led multiple team projects and participated in Smart India Hackthon competitions.</p>
+        <div class="score">CGPA: 8.3/10</div>
+      </div>
+    </div>
+    
+    <div class="timeline-item" style="animation-delay: 0.4s">
+      <div class="timeline-content">
+        <div class="timeline-date">2020 - 2023</div>
+        <!-- <div class="timeline-dot"></div> -->
+        <h3 class="degree">Bachelor of Computer Science</h3>
+        <div class="institution">BLDEA'S BHS Arts TGP Science College,Jamkhandi</div>
+        <p class="details">Bachelor of Computer Science.</p>
+        <div class="score">CGPA: 7.7/10</div>
+      </div>
+    </div>
+    
+    <div class="timeline-item" style="animation-delay: 0.6s">
+      <div class="timeline-content">
+        <div class="timeline-date">2018 - 2020</div>
+        <!-- <div class="timeline-dot"></div> -->
+        <h3 class="degree">Pre-University Course (PUC)</h3>
+        <div class="institution">Tungal Science PU College,Jamkhandi</div>
+        <p class="details">Science stream with Mathematics, Physics, and Biology.</p>
+        <div class="score">Percentage: 67%</div>
+      </div>
+    </div>
+  </div>
+        <!-- <img src="arrow.jpg" alt="arrow icon" class="icon arrow" onclick="location.href='#Contact'"/> -->
+    </section>
+    <!-- <section id="Contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="Find Icons with" alt="email" class="icon email-icon"/>
+                <p><a href="mailto:aparnashekadar123@gmail.com">aparnashekadar123@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="linkedin.png" alt="email" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/aparnashekadar">linkedin</a></p>
+            </div>
+        </div>
+    </section> -->
+    <footer class="footer">
+      <p>&copy; 2025 Aparna3622. All Rights Reserved.</p>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </footer>
+    <script src="index1.js"></script>
+</body>
+</html>
