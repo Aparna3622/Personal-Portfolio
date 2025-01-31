@@ -223,12 +223,8 @@ section {
     padding: 1rem 1rem;
     color: #0f0e0e;
 }
-
-/* From Uiverse.io by kennyotsu */ 
+ 
 .card {
-    /* color used to softly clip top and bottom of the .words container */
-    /* --bg-color: #212121; */
-    /* background-color: var(--bg-color); */
     padding: 1rem 1rem;
     border-radius: 1.25rem;
   }
