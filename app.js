@@ -36,7 +36,6 @@ function toggleMenu() {
     menuLinks.style.display = menuLinks.style.display === 'flex' ? 'none' : 'flex';
 }
 
-// Highlight active navigation link on scroll
 window.addEventListener('scroll', () => {
     const sections = document.querySelectorAll('section');
     const navLinks = document.querySelectorAll('.nav-links a');
