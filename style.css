@@ -138,7 +138,6 @@ nav {
     color : #fff;
 }
 
-/* Sections Styling */
 section {
     padding: 30px 20px;
     text-align: center;
@@ -195,9 +194,7 @@ section {
     background-position: center;
 }
 
-/* Gradient background for section-text */
 .section-text {
-    /* background: linear-gradient(135deg, #ff7e5f, #feb47b); */
     color: white; /* Ensure text is readable on the gradient background */
     padding: 20px; /* Add some padding for better appearance */
     border-radius: 10px; /* Optional: Add rounded corners */
