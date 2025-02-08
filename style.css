@@ -194,9 +194,9 @@ section {
 }
 
 .section-text {
-    color: white; /* Ensure text is readable on the gradient background */
-    padding: 20px; /* Add some padding for better appearance */
-    border-radius: 10px; /* Optional: Add rounded corners */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
     text-align: center; /* Center the text */
 }
 
