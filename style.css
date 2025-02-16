@@ -333,8 +333,6 @@ section {
 
 .text-container:hover{
     /* background-color: #023047;
-    border-color: #0a9396;
-    margin: 1rem;
     border-radius: 4px; */
     transform: translate(-5px, -5px);
     box-shadow: 17px 17px 0 #ac5e5e;
