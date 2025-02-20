@@ -35,7 +35,6 @@ button {
     transition: #fff 0.3s ease;
 }
 
-/* Navigation Styles */
 nav {
     display: flex;
     justify-content: space-between;
