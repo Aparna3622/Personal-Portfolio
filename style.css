@@ -12,7 +12,6 @@ body {
     line-height: 1.6;
     color: #9e9fe4;
     background-color: #0e0e0e; 
-    /* background-image: url('images.jpeg');  */
     background-size: cover;  
     background-repeat: no-repeat; 
     background-attachment: fixed; 
@@ -36,7 +35,6 @@ button {
     transition: #fff 0.3s ease;
 }
 
-/* Navigation Styles */
 nav {
     display: flex;
     justify-content: space-between;
@@ -88,7 +86,6 @@ nav {
     display: none;
 }
 
-/* Profile Section */
 #profile {
     display: flex;
     align-items: center;
@@ -96,7 +93,6 @@ nav {
     padding: 50px 20px;
     margin-bottom: 0;
     background-color: #0e0e0e;
-    /* background-image: url('images.jpeg'); */
     background-size: cover;  
     background-repeat: no-repeat; 
     background-attachment: fixed; 
@@ -138,9 +134,8 @@ nav {
     color : #fff;
 }
 
-/* Sections Styling */
 section {
-    padding: 30px 20px; /* Reduced padding */
+    padding: 30px 20px;
     text-align: center;
     margin: 0;
 }
@@ -185,7 +180,7 @@ section {
   }
 
 #about{
-    /* background-color: #eaccae; */
+  
    background-color: #131313;
     margin-top: 0;
     /* background-image: url('images.jpeg'); */
@@ -195,20 +190,17 @@ section {
     background-position: center;
 }
 
-/* Gradient background for section-text */
 .section-text {
-    /* background: linear-gradient(135deg, #ff7e5f, #feb47b); */
-    color: white; /* Ensure text is readable on the gradient background */
-    padding: 20px; /* Add some padding for better appearance */
-    border-radius: 10px; /* Optional: Add rounded corners */
-    text-align: center; /* Center the text */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; 
 }
 
 .section-text-p1 {
     margin:1px;
     color: #fff;
     padding: 1rem 1rem;
-     /* Reduced margin */
 }
 
 .section-p1 img{
@@ -223,6 +215,7 @@ section {
     padding: 1rem 1rem;
     color: #0f0e0e;
 }
+<<<<<<< HEAD
 
 .title span{
   margin-top: 10px;
@@ -232,10 +225,10 @@ section {
 }
 
 /* From Uiverse.io by kennyotsu */ 
+=======
+ 
+>>>>>>> 8f17fd1422bfd274b09894840dca8a9505f8bad7
 .card {
-    /* color used to softly clip top and bottom of the .words container */
-    /* --bg-color: #212121; */
-    /* background-color: var(--bg-color); */
     padding: 1rem 1rem;
     border-radius: 1.25rem;
   }
@@ -336,10 +329,6 @@ section {
 }
 
 .text-container{
-    /* border: 4px solid black;
-    padding: 1rem;
-    height: 100%;
-    border-radius: 4px; */
     width: 465px;
     margin: 1rem;
     margin-left: 10rem;
@@ -351,12 +340,6 @@ section {
 }
 
 .text-container:hover{
-    /* background-color: #023047;
-    border-color: #0a9396;
-    margin: 1rem;
-    border:4px solid black;
-    padding: 1rem;
-    border-radius: 4px; */
     transform: translate(-5px, -5px);
     box-shadow: 17px 17px 0 #ac5e5e;
 }
@@ -397,12 +380,6 @@ section {
 
 /* .details-container {
     padding: 20px;
-    margin-left: 45px;;
-    max-width: 300px;
-    text-align: center;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    color: #000;
     background-color: #0a9396;
 } */
 
