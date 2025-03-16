@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 const element = document.getElementById("typewriter");
     const text = "Web Developer!";
     let index = 0;
@@ -59,7 +57,6 @@ window.addEventListener('scroll', () => {
         }
     });
 });
-=======
 
 const element = document.getElementById("typewriter");
     const text = "Web Developer!";
@@ -119,4 +116,4 @@ window.addEventListener('scroll', () => {
         }
     });
 });
->>>>>>> 8f17fd1422bfd274b09894840dca8a9505f8bad7
+
