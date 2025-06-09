@@ -74,6 +74,33 @@ nav {
   width: fit-content;
 }
 
+/* .typewriter {
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  color: #908989;
+  background-color: #222;
+  margin-left: 6rem;
+  margin-top: 2rem;
+  display: inline-block;
+  border-right: 2px solid #a49999;
+  padding: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 3s steps(30, end) forwards, blink 0.7s infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 30ch; }  /* Adjust to match text length */
+/* }
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}   */
+
+
+
 .nav-links a:hover {
     color: #0a9396;
 }
@@ -101,6 +128,18 @@ nav {
     height: 450px;
     object-fit: cover;
 }
+
+.pic-container img:hover {
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    border: 20px solid #9f9898;
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.8);
+    object-fit: cover;
+    transform: scale(1.1); /* zoom isn't standard; use transform */
+    transition: all 0.3s ease; /* optional: adds smooth animation */
+}
+
 
 .section-text {
     text-align: left;
